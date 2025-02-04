@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using JavaScript</title>
+</head>
+<body>
+
+    <!-- Using JavaScript -->
+    <div id="root"></div> <!-- create a reference (id="root") -->
+
+    <script>
+        
+        // Create element using JavaScript -->
+        const message = document.createElement("h1")
+        
+        message.innerHTML = "Hello from  JavaScript"
+        
+        // Using DOM Manipulation
+        const root = document.getElementById("root") 
+
+        root.appendChild(message)
+
+    </script>
+</body>
+</html>
